@@ -1,0 +1,1 @@
+{"_index":"''Configuration ' (Internal Object Number)''","_index2":"''Configuration2 ' (Internal Object Number)''","hello":"there"}

@@ -24,7 +24,7 @@ public class Main {
     public static String ELASTIC_HOST = "localhost";
     public static int ELASTIC_PORT = 9200;
     public static String HTTP_SCHEME = "http";
-    public static String ELASTIC_INDEX = "localhost_1007_do_0_en";
+    public static String ELASTIC_INDEX = "dowqa.masterdataonline.com_1008_nos_corr_4805460525145";
 
     static RestHighLevelClient client = new RestHighLevelClient(
             RestClient.builder(new HttpHost(ELASTIC_HOST, ELASTIC_PORT, HTTP_SCHEME))

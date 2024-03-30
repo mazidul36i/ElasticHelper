@@ -1,0 +1,2134 @@
+{
+  "aliases": {},
+  "mappings": {
+    "dynamic": "false",
+    "properties": {
+      "descriptions": {
+        "type": "nested",
+        "properties": {
+          "action": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            },
+            "fielddata": true
+          },
+          "attributes": {
+            "properties": {
+              "ar": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "bg": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "cs": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "de": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "el": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "en": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "es": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "fr": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "hu": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "id": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "it": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "ja": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "ko": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "lt": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "nl": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "no": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "pl": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "pt": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "ru": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "sk": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "sv": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "th": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "tr": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "uk": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "vi": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "zf": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "zh": {
+                "properties": {
+                  "longDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "shortDesc": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword"
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              }
+            }
+          },
+          "classCode": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            },
+            "fielddata": true
+          },
+          "classId": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            },
+            "fielddata": true
+          },
+          "classMode": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            },
+            "fielddata": true
+          },
+          "classType": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            },
+            "fielddata": true
+          },
+          "isDesc": {
+            "type": "boolean"
+          }
+        }
+      },
+      "fld_result": {
+        "properties": {
+          "failed": {
+            "type": "keyword"
+          },
+          "passed": {
+            "type": "keyword"
+          }
+        }
+      },
+      "gvs": {
+        "type": "object"
+      },
+      "hdvs": {
+        "properties": {
+          "DATECREATED": {
+            "properties": {
+              "vc": {
+                "properties": {
+                  "c": {
+                    "type": "date",
+                    "format": "epoch_millis",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    }
+                  },
+                  "t": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "DATEMODIFIED": {
+            "properties": {
+              "vc": {
+                "properties": {
+                  "c": {
+                    "type": "date",
+                    "format": "epoch_millis",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    }
+                  },
+                  "t": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "FLD_111089269": {
+            "properties": {
+              "bc": {
+                "properties": {
+                  "c": {
+                    "type": "text",
+                    "fields": {
+                      "alphanumeric": {
+                        "type": "text",
+                        "analyzer": "alphanumeric_analyzer"
+                      },
+                      "exactMatch": {
+                        "type": "text",
+                        "analyzer": "keywords_analyzer"
+                      },
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "fId": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "vc": {
+                "properties": {
+                  "c": {
+                    "type": "text",
+                    "fields": {
+                      "alphanumeric": {
+                        "type": "text",
+                        "analyzer": "alphanumeric_analyzer"
+                      },
+                      "exactMatch": {
+                        "type": "text",
+                        "analyzer": "keywords_analyzer"
+                      },
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "l": {
+                    "type": "text",
+                    "fields": {
+                      "alphanumeric": {
+                        "type": "text",
+                        "analyzer": "alphanumeric_analyzer"
+                      },
+                      "exactMatch": {
+                        "type": "text",
+                        "analyzer": "keywords_analyzer"
+                      },
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "t": {
+                    "type": "text",
+                    "fields": {
+                      "alphanumeric": {
+                        "type": "text",
+                        "analyzer": "alphanumeric_analyzer"
+                      },
+                      "exactMatch": {
+                        "type": "text",
+                        "analyzer": "keywords_analyzer"
+                      },
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              }
+            }
+          },
+          "FLD_790167900": {
+            "properties": {
+              "bc": {
+                "properties": {
+                  "c": {
+                    "type": "text",
+                    "fields": {
+                      "alphanumeric": {
+                        "type": "text",
+                        "analyzer": "alphanumeric_analyzer"
+                      },
+                      "exactMatch": {
+                        "type": "text",
+                        "analyzer": "keywords_analyzer"
+                      },
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              },
+              "fId": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "vc": {
+                "properties": {
+                  "c": {
+                    "type": "text",
+                    "fields": {
+                      "alphanumeric": {
+                        "type": "text",
+                        "analyzer": "alphanumeric_analyzer"
+                      },
+                      "exactMatch": {
+                        "type": "text",
+                        "analyzer": "keywords_analyzer"
+                      },
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "l": {
+                    "type": "text",
+                    "fields": {
+                      "alphanumeric": {
+                        "type": "text",
+                        "analyzer": "alphanumeric_analyzer"
+                      },
+                      "exactMatch": {
+                        "type": "text",
+                        "analyzer": "keywords_analyzer"
+                      },
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "t": {
+                    "type": "text",
+                    "fields": {
+                      "alphanumeric": {
+                        "type": "text",
+                        "analyzer": "alphanumeric_analyzer"
+                      },
+                      "exactMatch": {
+                        "type": "text",
+                        "analyzer": "keywords_analyzer"
+                      },
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              }
+            }
+          },
+          "STATUS": {
+            "properties": {
+              "vc": {
+                "properties": {
+                  "c": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "t": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              }
+            }
+          },
+          "USERCREATED": {
+            "properties": {
+              "vc": {
+                "properties": {
+                  "c": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "t": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              }
+            }
+          },
+          "USERMODIFIED": {
+            "properties": {
+              "vc": {
+                "properties": {
+                  "c": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    },
+                    "fielddata": true
+                  },
+                  "t": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    },
+                    "fielddata": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hyvs": {
+        "properties": {
+          "2": {
+            "properties": {
+              "hId": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "rows": {
+                "type": "nested",
+                "properties": {
+                  "FLD_074373920": {
+                    "properties": {
+                      "bc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "fId": {
+                        "type": "text",
+                        "fields": {
+                          "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                          }
+                        }
+                      },
+                      "vc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "l": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "t": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "FLD_493915034": {
+                    "properties": {
+                      "bc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "fId": {
+                        "type": "text",
+                        "fields": {
+                          "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                          }
+                        }
+                      },
+                      "vc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "l": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "t": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "FLD_693766514": {
+                    "properties": {
+                      "bc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "fId": {
+                        "type": "text",
+                        "fields": {
+                          "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                          }
+                        }
+                      },
+                      "vc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "l": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "t": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "3": {
+            "properties": {
+              "hId": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "rows": {
+                "type": "nested",
+                "properties": {
+                  "FLD_074373920": {
+                    "properties": {
+                      "bc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "fId": {
+                        "type": "text",
+                        "fields": {
+                          "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                          }
+                        }
+                      },
+                      "vc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "l": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "t": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "FLD_272975011": {
+                    "properties": {
+                      "bc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "fId": {
+                        "type": "text",
+                        "fields": {
+                          "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                          }
+                        }
+                      },
+                      "vc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "l": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "t": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "FLD_496031200": {
+                    "properties": {
+                      "bc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "fId": {
+                        "type": "text",
+                        "fields": {
+                          "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                          }
+                        }
+                      },
+                      "vc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "l": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "t": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "FLD_838377348": {
+                    "properties": {
+                      "bc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "fId": {
+                        "type": "text",
+                        "fields": {
+                          "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                          }
+                        }
+                      },
+                      "vc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "l": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "t": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "4": {
+            "properties": {
+              "hId": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "rows": {
+                "type": "nested",
+                "properties": {
+                  "FLD_095267455": {
+                    "properties": {
+                      "bc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "fId": {
+                        "type": "text",
+                        "fields": {
+                          "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                          }
+                        }
+                      },
+                      "vc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "l": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "t": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "FLD_098190695": {
+                    "properties": {
+                      "bc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "fId": {
+                        "type": "text",
+                        "fields": {
+                          "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                          }
+                        }
+                      },
+                      "vc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "l": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "t": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "FLD_993121970": {
+                    "properties": {
+                      "bc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "fId": {
+                        "type": "text",
+                        "fields": {
+                          "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                          }
+                        }
+                      },
+                      "vc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "l": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "t": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "5": {
+            "properties": {
+              "hId": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "rows": {
+                "type": "nested",
+                "properties": {
+                  "FLD_095267455": {
+                    "properties": {
+                      "bc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "fId": {
+                        "type": "text",
+                        "fields": {
+                          "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                          }
+                        }
+                      },
+                      "vc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "l": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "t": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "FLD_098190695": {
+                    "properties": {
+                      "bc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "fId": {
+                        "type": "text",
+                        "fields": {
+                          "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                          }
+                        }
+                      },
+                      "vc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "l": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "t": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "FLD_137809792": {
+                    "properties": {
+                      "bc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "fId": {
+                        "type": "text",
+                        "fields": {
+                          "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                          }
+                        }
+                      },
+                      "vc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "l": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "t": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "FLD_627865808": {
+                    "properties": {
+                      "bc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "fId": {
+                        "type": "text",
+                        "fields": {
+                          "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                          }
+                        }
+                      },
+                      "vc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "l": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "t": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "6": {
+            "properties": {
+              "hId": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "rows": {
+                "type": "nested",
+                "properties": {
+                  "FLD_720987515": {
+                    "properties": {
+                      "bc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "fId": {
+                        "type": "text",
+                        "fields": {
+                          "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                          }
+                        }
+                      },
+                      "vc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "l": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "t": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "FLD_969102067": {
+                    "properties": {
+                      "bc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "fId": {
+                        "type": "text",
+                        "fields": {
+                          "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                          }
+                        }
+                      },
+                      "vc": {
+                        "properties": {
+                          "c": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "l": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          },
+                          "t": {
+                            "type": "text",
+                            "fields": {
+                              "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "id": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "quality_score": {
+        "type": "nested",
+        "properties": {
+          "categoryScores": {
+            "type": "nested",
+            "properties": {
+              "categoryId": {
+                "type": "long"
+              },
+              "ruleScores": {
+                "type": "nested",
+                "properties": {
+                  "brId": {
+                    "type": "long"
+                  },
+                  "score": {
+                    "type": "float"
+                  },
+                  "status": {
+                    "type": "text",
+                    "fields": {
+                      "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                      }
+                    }
+                  }
+                }
+              },
+              "score": {
+                "type": "float"
+              }
+            }
+          },
+          "createdAt": {
+            "type": "long"
+          },
+          "matrixId": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "overallScore": {
+            "type": "float"
+          },
+          "version": {
+            "type": "long"
+          }
+        }
+      },
+      "strId": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      }
+    }
+  },
+  "settings": {
+    "index": {
+      "routing": {
+        "allocation": {
+          "include": {
+            "_tier_preference": "data_content"
+          }
+        }
+      },
+      "mapping": {
+        "nested_fields": {
+          "limit": "16"
+        },
+        "total_fields": {
+          "limit": "4741"
+        }
+      },
+      "number_of_shards": "1",
+      "provided_name": "dev.masterdataonline.com_133069_do_346377_en",
+      "creation_date": "1699178921355",
+      "analysis": {
+        "analyzer": {
+          "keywords_analyzer": {
+            "filter": ["lowercase"],
+            "tokenizer": "keyword"
+          },
+          "location_analyzer": {
+            "tokenizer": "path_hierarchy"
+          },
+          "alphanumeric_analyzer": {
+            "filter": ["lowercase"],
+            "char_filter": ["specialCharactersFilter"],
+            "type": "custom",
+            "tokenizer": "standard"
+          }
+        },
+        "char_filter": {
+          "specialCharactersFilter": {
+            "pattern": "[^A-Za-z0-9]",
+            "type": "pattern_replace",
+            "replacement": ""
+          }
+        }
+      },
+      "number_of_replicas": "1",
+      "uuid": "LuWvyWzhSdm6zRyf0vOzeQ",
+      "version": {
+        "created": "7100299"
+      }
+    }
+  }
+}
